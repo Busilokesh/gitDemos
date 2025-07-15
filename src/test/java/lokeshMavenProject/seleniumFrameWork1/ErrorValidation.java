@@ -46,5 +46,8 @@ public class ErrorValidation extends BaseTests {
 		  OrderPlacedPage orderPlacedPage = checkOutPage.OpenCheckOutPage();
 		   String confirmMessage = orderPlacedPage.orderPlaced();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("Thankyou for the order."));
+		System.out.println("Hello");
+		System.out.println("pulled the code from the github and imported in the eclipse");
+		System.out.println("Lokesh modified the project ");
 	     }
 }
