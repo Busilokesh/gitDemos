@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T15:43:33 IST" name="Suite" finished-at="2025-07-15T15:44:12 IST" duration-ms="38516">
+    <groups>
+      <group name="purchaseOrder">
+        <method signature="SubmitOrder.productValidation(java.util.HashMap)[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" name="productValidation" class="lokeshMavenProject.seleniumFrameWork1.SubmitOrder"/>
+      </group> <!-- purchaseOrder -->
+    </groups>
+    <test started-at="2025-07-15T15:43:33 IST" name="ErrorValidation" finished-at="2025-07-15T15:43:33 IST" duration-ms="33">
+    </test> <!-- ErrorValidation -->
+    <test started-at="2025-07-15T15:43:33 IST" name="Submit Order" finished-at="2025-07-15T15:44:12 IST" duration-ms="38510">
+      <class name="lokeshMavenProject.seleniumFrameWork1.SubmitOrder">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:43:34 IST" name="LaunchApplication" finished-at="2025-07-15T15:43:41 IST" duration-ms="6661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="productValidation(java.util.HashMap)[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:43:41 IST" name="productValidation" data-provider="getData" finished-at="2025-07-15T15:43:52 IST" duration-ms="10802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hanuman@15091998, product=ZARA COAT 3, userName=busilokesh143@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:43:52 IST" name="tearDown" finished-at="2025-07-15T15:43:52 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:43:52 IST" name="LaunchApplication" finished-at="2025-07-15T15:44:01 IST" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="productValidation(java.util.HashMap)[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:44:01 IST" name="productValidation" data-provider="getData" finished-at="2025-07-15T15:44:12 IST" duration-ms="10854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hanuman@15091998, product=ZARA COAT 3, userName=busilokesh007@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lokeshMavenProject.seleniumFrameWork1.SubmitOrder@75db5df9]" started-at="2025-07-15T15:44:12 IST" name="tearDown" finished-at="2025-07-15T15:44:12 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lokeshMavenProject.seleniumFrameWork1.SubmitOrder -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
