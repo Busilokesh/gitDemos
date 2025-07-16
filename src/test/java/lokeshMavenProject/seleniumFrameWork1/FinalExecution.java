@@ -82,10 +82,15 @@ public class FinalExecution extends BaseTests {
 	    }
 	    public void yypersonMethod()
 	    {
-	    	System.out.println("yperson pulled y person code");
-	    	System.out.println("yperson  modifed code");
-	    	System.out.println("yperson pushed code");
+	    	System.out.println("Indianperson pulled y person code");
+	    	System.out.println("Indianperson  modifed code");
+	    	System.out.println("Indianperson pushed code");
 	    }
-
+	    public void xxpersonMethod()
+	    {
+	    	System.out.println("Americanperson pulled y person code");
+	    	System.out.println("Americanperson  modifed code");
+	    	System.out.println("Americanperson pushed code");
+	    }
      }
 
