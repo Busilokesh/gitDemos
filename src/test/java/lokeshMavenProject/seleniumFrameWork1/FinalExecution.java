@@ -61,7 +61,31 @@ public class FinalExecution extends BaseTests {
 	  // OrderPlacedPage orderPlacedPage = new OrderPlacedPage(driver);
 	   String confirmMessage = orderPlacedPage.orderPlaced();
 	Assert.assertTrue(confirmMessage.equalsIgnoreCase("Thankyou for the order."));
- 
+    }
+	   public void xypersonMethod()
+	    {
+	    	System.out.println("Xperson pulled y person code");
+	    	System.out.println("Xperson  modifed code");
+	    	System.out.println("Xperson pushed code");
+	    }
+	    public void YpersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    } 
+	    public void ypersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    }
+	    public void yypersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    }
 
      }
-}
+

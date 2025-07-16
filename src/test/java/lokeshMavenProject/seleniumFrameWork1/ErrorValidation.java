@@ -56,4 +56,22 @@ public class ErrorValidation extends BaseTests {
 	    	System.out.println("Xperson  modifed code");
 	    	System.out.println("Xperson pushed code");
 	    }
+	    public void YpersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    }
+	    public void ypersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    }
+	    public void yypersonMethod()
+	    {
+	    	System.out.println("yperson pulled y person code");
+	    	System.out.println("yperson  modifed code");
+	    	System.out.println("yperson pushed code");
+	    }
 }
