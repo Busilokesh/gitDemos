@@ -50,4 +50,10 @@ public class ErrorValidation extends BaseTests {
 		System.out.println("pulled the code from the github and imported in the eclipse");
 		System.out.println("Lokesh modified the project ");
 	     }
+	    public void xpersonMethod()
+	    {
+	    	System.out.println("Xperson pulled y person code");
+	    	System.out.println("Xperson  modifed code");
+	    	System.out.println("Xperson pushed code");
+	    }
 }
